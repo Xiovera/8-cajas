@@ -6,8 +6,40 @@ div{
 	border:solid 1px #000000;
 }
 .costado{
-	display:block;
+	position: absolute;
+	top: 260px;
+	bottom: 0px; 
+	right: 0px;
+	left: 150px;
+	} 
+
+.caja_padre{
+	width:420px;
+	height: 120px;
+	border:solid 1px #000000;
+	position: absolute;
 }
-.1 .2 .3{
+.hijo1{
+	border:solid 1px #000000;
+	left: 11px;
+	position: absolute;
+	margin-rigth: 10px;
+}
+.hijo2{
+	border:solid 1px #000000;
+	left: 130px;
+	position: absolute;
+	margin-rigth:10px;
+
+}
+.hijo3{
+	border:solid 1px #000000;
+	left: 250px;
+	position: absolute;
+	margin-rigth: 10px;
+
+}
+
+/*.1 .2 .3{
 	display: block;
-}
+}*/
