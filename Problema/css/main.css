@@ -1,2 +1,13 @@
-/* Inserta tu CSS aqui */
-
+div{
+	background-color: #848484;
+	width:120px;
+	height:120px;
+	margin-bottom: 5px;
+	border:solid 1px #000000;
+}
+.costado{
+	display:block;
+}
+.1 .2 .3{
+	display: block;
+}
